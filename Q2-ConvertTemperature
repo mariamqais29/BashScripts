@@ -1,0 +1,4 @@
+#! /usr/bin/bash
+read -p "Enter temperature in Fahrenheit : " temp
+cel=$((($temp-32)*5/9))
+echo "The Temperatue in Celcius is : $cel"

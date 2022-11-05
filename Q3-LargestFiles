@@ -1,0 +1,10 @@
+#! /usr/bin/bash
+read -p "Enter Path : " path
+echo "The Largest 10 files in  $path : "
+if [[ -z $path ]]
+then
+        echo "Incorrect input "
+else
+find $path -type f | du -a | sort -rh | head -10
+fi
+

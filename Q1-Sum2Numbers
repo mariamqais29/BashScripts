@@ -1,0 +1,14 @@
+#! /usr/bin/bash
+read -p "Enter First Number ! " num1
+read -p "Enter Second Number ! " num2
+SUM=$(($num1+$num2))
+if [ $SUM -lt 100 ]
+then
+        echo "Sum is Less than 100"
+elif [ $SUM -gt 100 ]
+then
+        echo "Sum is Greater than 100"
+else
+        echo "Sum Equals 100"
+fi
+

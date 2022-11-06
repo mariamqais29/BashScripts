@@ -2,7 +2,9 @@
 
 Q1- Write a bash script that collects two numbers from the user and then
 prints a message if these two numbers are smaller or greater than 100.
-My Solution- 
+
+My Solution-
+
     #! /usr/bin/bash
     read -p "Enter First Number ! " num1
     read -p "Enter Second Number ! " num2
@@ -19,7 +21,9 @@ My Solution-
 
 Q2- Write a bash script that reads a temperature in Fahrenheit and converts
 it to Celcius.
+
 My Solution- 
+
     #! /usr/bin/bash
     read -p "Enter temperature in Fahrenheit : " temp
     cel=$((($temp-32)*5/9))
@@ -28,7 +32,9 @@ My Solution-
     
 Q3- Using the find, du, and sort commands, please write a script that finds
 the largest 10 files in a directory.
+
 My Solution -
+
     #! /usr/bin/bash
     read -p "Enter Path : " path
     echo "The Largest 10 files in  $path : "
